@@ -1,0 +1,67 @@
+*********************** Log Started 2021-06-16T05:01:41Z ***********************
+************************** Gromacs Folding@home Core ***************************
+       Core: Gromacs
+       Type: 0xa8
+    Version: 0.0.12
+     Author: Joseph Coffland <joseph@cauldrondevelopment.com>
+  Copyright: 2020 foldingathome.org
+   Homepage: https://foldingathome.org/
+       Date: Jan 16 2021
+       Time: 12:29:40
+   Revision: c5816759c404e4b65f9f364c3d1ef554a67c4225
+     Branch: master
+   Compiler: Visual C++ 2019 16.7
+    Options: /TP /std:c++14 /nologo /EHa /wd4297 /wd4103 /O2 /Zc:throwingNew /MT
+   Platform: win32 10
+       Bits: 64
+       Mode: Release
+       SIMD: avx2_256
+     OpenMP: ON
+       CUDA: OFF
+       Args: -dir 00 -suffix 01 -version 706 -lifeline 1828 -checkpoint 15 -np 9
+************************************ libFAH ************************************
+       Date: Jan 16 2021
+       Time: 11:24:13
+   Revision: c5816759c404e4b65f9f364c3d1ef554a67c4225
+     Branch: master
+   Compiler: Visual C++ 2019 16.7
+    Options: /TP /std:c++14 /nologo /EHa /wd4297 /wd4103 /O2 /Zc:throwingNew /MT
+   Platform: win32 10
+       Bits: 64
+       Mode: Release
+************************************ CBang *************************************
+       Date: Jan 16 2021
+       Time: 11:23:53
+   Revision: c5816759c404e4b65f9f364c3d1ef554a67c4225
+     Branch: master
+   Compiler: Visual C++ 2019 16.7
+    Options: /TP /std:c++14 /nologo /EHa /wd4297 /wd4103 /O2 /Zc:throwingNew /MT
+   Platform: win32 10
+       Bits: 64
+       Mode: Release
+************************************ System ************************************
+        CPU: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz
+     CPU ID: GenuineIntel Family 6 Model 158 Stepping 10
+       CPUs: 12
+     Memory: 15.86GiB
+Free Memory: 12.40GiB
+    Threads: WINDOWS_THREADS
+ OS Version: 6.2
+Has Battery: false
+ On Battery: false
+ UTC Offset: 2
+        PID: 6476
+        CWD: C:\ProgramData\FAHClient\work
+********************************************************************************
+Project: 16969 (Run 17, Clone 629, Gen 32)
+Unit: 0x00000000000000000000000000000000
+Reading tar file core.xml
+Reading tar file frame32.tpr
+Digital signatures verified
+Calling: mdrun -c frame32.gro -s frame32.tpr -x frame32.xtc -cpt 15 -nt 9 -ntmpi 1
+Steps: first=80000000 total=82500000
+Completed 1 out of 2500000 steps (0%)
+Completed 25000 out of 2500000 steps (1%)
+WARNING:Console control signal 1 on PID 6476
+Exiting, please wait. . .
+Folding@home Core Shutdown: INTERRUPTED

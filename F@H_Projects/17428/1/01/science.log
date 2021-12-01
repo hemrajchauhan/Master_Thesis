@@ -1,0 +1,31 @@
+Calling: mdrun -s frame448.tpr -o frame448.trr -x frame448.xtc -cpt 15 -nt 3 -ntmpi 1
+Steps: first=56000000 total=125000
+Reading file frame448.tpr, VERSION 5.0.4 (single precision)
+Can not increase nstlist because verlet-buffer-tolerance is not set or used
+Using 3 MPI threads
+Completed 1 out of 125000 steps (0%)
+Completed 1250 out of 125000 steps (1%)
+Completed 2500 out of 125000 steps (2%)
+Completed 3750 out of 125000 steps (3%)
+Compiled SIMD instructions: AVX_256 (Gromacs could use AVX2_256 on this machine, which is better)
+
+The current CPU can measure timings more accurately than the code in
+GROMACS was configured to use. This might affect your simulation
+speed as accurate timings are needed for load-balancing.
+Please consider rebuilding GROMACS with the GMX_USE_RDTSCP=OFF CMake option.
+
+
+NOTE: The number of threads is not equal to the number of (logical) cores
+      and the -pin option is set to auto: will not pin thread to cores.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+
+Setting the maximum number of constraint warnings to -1
+
+WARNING: Changing nstcomm from 5 to 10
+
+starting mdrun 'Protein in water'
+56125000 steps, 224500.0 ps (continuing from step 56000000, 224000.0 ps).
+
+NOTE: Turning on dynamic load balancing
+

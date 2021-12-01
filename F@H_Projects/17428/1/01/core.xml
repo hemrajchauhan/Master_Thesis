@@ -1,0 +1,4 @@
+<config><core-args v='-s frame448.tpr
+    -o frame448.trr
+    -x frame448.xtc'/><return v='frame*.trr frame*.xtc md.log'/>
+</config>
