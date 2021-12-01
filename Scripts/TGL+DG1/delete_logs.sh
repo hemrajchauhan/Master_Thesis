@@ -1,0 +1,1 @@
+find -type d -name "log*" -exec rm -rf {} +
